@@ -14,6 +14,7 @@ namespace WebApp_Razor_Temp.Pages
 
         public void OnGet()
         {
+            throw new Exception("Testing");
         }
     }
 

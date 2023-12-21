@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>WebApp_Razor_Temp</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/e1c539e2-f27a-492d-96bf-3ae719c34d5e/resourceGroups/az-course-rg-2/providers/microsoft.insights/components/azure-app-era-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>480358ae-af05-4433-96e0-afa2cc5e2bae</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
